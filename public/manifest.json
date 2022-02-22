@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Jira Quick Link",
+	"description": "Open a Jira ticket by pasting the id",
+	"version": "1",
+	"options_page": "options.html",
+	"icons": {
+		"48": "images/icons/60.png",
+		"128": "images/icons/120.png"
+	},
+	"browser_action": {
+		"default_title": "Jira Quick Link"
+	},
+	"background": {
+		"page": "index.html"
+	},
+	"permissions": ["storage", "activeTab"]
+}
