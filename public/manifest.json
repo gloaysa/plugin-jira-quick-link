@@ -9,7 +9,8 @@
 		"128": "images/icons/120.png"
 	},
 	"browser_action": {
-		"default_title": "Jira Quick Link"
+		"default_title": "Jira Quick Link",
+		"default_popup": "popup.html"
 	},
 	"background": {
 		"page": "index.html"
