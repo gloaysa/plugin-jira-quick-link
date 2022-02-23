@@ -29,7 +29,7 @@ const Popup = () => {
 	return (
 		<div style={{ minWidth: '300px' }}>
 			<form>
-				<input autoFocus onChange={(event) => setJiraTicket(event.target.value)} type="text"/>
+				<input autoFocus placeholder='PROJECT-XXXX' onChange={(event) => setJiraTicket(event.target.value)} type="text"/>
 				<button disabled={!jiraTicket} onClick={goToJiraTicket}>Go</button>
 			</form>
 

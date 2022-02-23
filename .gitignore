@@ -1,7 +1,7 @@
 npm-debug.log
 node_modules/
-dist/
 tmp/
 .idea/
-dist.zip
-dist.pem
+plugin-jira-quick-link/
+plugin-jira-quick-link.zip
+plugin-jira-quick-link.pem
