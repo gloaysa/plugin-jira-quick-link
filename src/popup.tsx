@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 import ReactDOM from 'react-dom';
 
 const Popup = () => {
-  const url = 'jira/browse/';
-
   const [baseUrl, setBaseUrl] = useState<string>();
   const [jiraTicket, setJiraTicket] = useState<string>();
 
@@ -13,7 +11,7 @@ const Popup = () => {
 
   const goToJiraTicket = () => {
     if (jiraTicket) {
-      chrome.tabs.create({url: `${baseUrl}${url}${jiraTicket}`})
+      chrome.tabs.create({url: `${baseUrl}${jiraTicket}`})
     }
   }
 

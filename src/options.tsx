@@ -64,12 +64,12 @@ const Options = () => {
                   </div>
 
                   <div className="field is-centered">
-                    <label className="label">Base URL</label>
+                    <label className="label">Base URL (path to ticket without project id)</label>
                     <div className="control has-icons-right">
                       <input
                         className="input"
                         type='text'
-                        placeholder="https://issues.apache.org/"
+                        placeholder="https://issues.apache.org/jira/browse/"
                         onChange={(event) => setBaseUrl(event.target.value)}
                         value={baseUrl}
                       />
