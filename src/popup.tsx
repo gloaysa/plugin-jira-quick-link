@@ -13,7 +13,7 @@ const Popup = () => {
 
   const goToJiraTicket = () => {
     if (jiraTicket) {
-      chrome.tabs.create({url: `${baseUrl}${url}/${jiraTicket}`})
+      chrome.tabs.create({url: `${baseUrl}${url}${jiraTicket}`})
     }
   }
 
